@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css" media="">
+    <title>Cadastro bateria</title>
+</head>
+<body>
+ 
+<div class="campo">
+<h1 id="título"><strong>Cadastro Escolinha</strong></h1>
+<p id="subtitulo"><strong>Complete suas informações:</strong></p>
+<br>
+</div>
+
+<form action="">
+
+    <fieldset class="grupo">
+    <div class="campo">
+        <label for="Nome"><strong> Nome: </strong></label>
+        <input type="text" name="Nome" id="Nome" required>
+    </div>
+
+    <div class="campo">
+        <label for="Sobrenome"><strong>Sobrenome:</strong></label>
+        <input type="text" name="Sobrenome" id="Sobrenome" required>
+    </div>
+    
+</fieldset>
+
+<div class="campo">
+    <label for="Email"><strong>Email</strong></label>
+    <input type="email" name="email" id="email" required>
+</div>
+
+<div class="campo">
+    <label for=""><strong> Qual instrumento quer aprender?</strong></label>
+    <label for="">
+        <input type="radio" name="devweb" value="Agogo"><checked> Agogo
+    </label>
+    <label for="">
+        <input type="radio" name="devweb" value="Chocalho">Chocalho
+    </label>
+    <label for="">
+        <input type="radio" name="devweb" value="Tamborim">Tamborim
+    </label>
+    <label for="">
+        <input type="radio" name="devweb" value="Caixa">Caixa
+    </label>
+    <label for="">
+        <input type="radio" name="devweb" value="Repinique">Repinique
+    </label>
+    <label for="">
+        <input type="radio" name="devweb" value="Surdo de 1">Surdo de 1 e 2
+    </label>
+    <label for="">
+        <input type="radio" name="devweb" value="Surdo de 3">Surdo de 3
+    </label>
+
+</div>
+
+<div class="campo">
+    <label for="Idade"><strong>Idade:</strong></label>
+    <select id="Idade">
+    <option selected disabled value="">Selecione</option>   
+    <option>Menor de 18 anos</option>
+    <option>Maior de 18 anos</option>
+</select>
+</div>
+
+<fieldset class="grupo">
+<div id="check">
+    <label for=""><strong>Você toca algum instrumento?</strong></label>
+    <br>
+    <input type="checkbox" id="instrumento1" name="instrumento1">
+    <label for="instrumento1">Agogo</label>
+    <input type="checkbox" id="instrumento2" name="instrumento2">
+    <label for="instrumento2">Chocalho</label>
+    <input type="checkbox" id="instrumento3" name="instrumento3">
+    <label for="instrumento3">Tamborim</label>
+    <input type="checkbox" id="instrumento4" name="instrumento4">
+    <label for="instrumento4">Caixa</label>
+    <input type="checkbox" id="instrumento5" name="instrumento5">
+    <label for="instrumento5">Repinique</label>
+    <input type="checkbox" id="instrumento6" name="instrumento6">
+    <label for="instrumento6">Surdo 1</label>
+    <input type="checkbox" id="instrumento7" name="instrumento7">
+    <label for="instrumento7">Surdo 2</label>
+    <input type="checkbox" id="instrumento8" name="instrumento8">
+    <label for="instrumento8">Surdo 3</label>
+</div>
+
+</fieldset>
+
+<div class="campo">
+    <br>
+    <label for=""><strong>Nos conte o porque quer aprender a tocar um instrumento:</strong></label>
+    <textarea name="motivaçao" id="motivaçao" style="width: 26em;"row='6'></textarea>
+</div>
+<br>
+<br>
+<button type="submit" class="botao">Concluído</button>
+
+
+
+</form>
+
+</body>
+</html>
